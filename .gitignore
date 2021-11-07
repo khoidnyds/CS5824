@@ -1,9 +1,0 @@
-preprocessed_data
-temp
-src/__pycache__
-.vscode
-.ipynb_checkpoints
-setup.ipynb
-.gitignore
-.gitattributes
-raw_data
