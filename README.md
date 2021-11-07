@@ -14,7 +14,7 @@ conda activate CS5824
 
 conda env export > requirements.yml
 
-# Source
+# Data sources
 Full viral genomes have been download in Nov 7, 2021 from https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/
 
 - viral.1.1.genomic.fna.gz
