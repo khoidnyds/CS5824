@@ -1,5 +1,6 @@
 name: CS5824
 channels:
+  - judowill
   - conda-forge
   - bioconda
   - defaults
@@ -42,6 +43,7 @@ dependencies:
   - gast=0.4.0=pyh9f0ad1d_0
   - giflib=5.2.1=h36c2ea0_2
   - git-lfs=3.0.2=ha770c72_0
+  - gitflow=0.4.1=0
   - google-auth=1.35.0=pyh6c4a22f_0
   - google-auth-oauthlib=0.4.6=pyhd8ed1ab_0
   - google-pasta=0.2.0=pyh8c360ce_0
