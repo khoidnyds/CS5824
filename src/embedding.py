@@ -214,3 +214,8 @@ class DNA2Vec():
                 labels.append(label)
 
         return targets, contexts, labels
+
+
+my_model = DNA2Vec(
+    input_path=Path('raw_data/full_viral_complete_genome.fna'), model_path=Path('.'))
+my_model.build()
