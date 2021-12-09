@@ -113,6 +113,7 @@ for i in range(0,236):
 
 print("purity: ",purity())
 print("NMI: ",NMI())
+
 intra = intracluster_similarity(all_list)
 inter = intercluster_similarity(all_list)
 print("intra cluster similarity: ", intra)
