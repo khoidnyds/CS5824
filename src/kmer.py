@@ -26,7 +26,7 @@ class Kmer():
             subprocess.run(
                 f"jellyfish dump temp/dump_temp.jf -c > temp/dump_temp.fna", shell=True)
             a = pd.read_csv("temp/dump_temp.fna", sep=" ",
-                            names=['Kmer', genome.name], index_col='Kmer')
+                            names=['Kmer', genome.long_name], index_col='Kmer')
             if df is None:
                 df = a
             else:
@@ -34,5 +34,5 @@ class Kmer():
             df.to_csv("temp/kmer_count.csv")
 
 
-a = Kmer("raw_data/full_viral_complete_genome.fna", 5, "1000")
+a = Kmer("raw_data/meshclust/all.fasta", 4, "1000")
 a.get_kmer_count_presentation()
